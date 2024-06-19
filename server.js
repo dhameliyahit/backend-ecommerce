@@ -26,7 +26,7 @@ app.use('/api/v1/product',productRoutes)
 //     res.sendFile(path.join(__dirname,'./client/build/index.html'))
 // })
 app.get('/',(req,res)=>{
-    req.end("<h1>Hello Ecommerce</h2>")
+    res.end("<h1>Hello Ecommerce</h2>")
 })
 
 
