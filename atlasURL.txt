@@ -1,0 +1,1 @@
+mongodb+srv://dhameliyahit:bJUoQ7NuGLhDF2qg@cluster0.zm0epwa.mongodb.net/ecommerce
