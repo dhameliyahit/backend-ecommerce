@@ -19,7 +19,7 @@ app.use(morgan('dev'))
 
 app.use('/api/v1/auth', authRoute)
 app.use('/api/v1/category',categoryRoute)
-app.use('   ',productRoutes)
+app.use('/api/v1/product',productRoutes)
 
 //home route
 // app.use('*',function(req,res){
