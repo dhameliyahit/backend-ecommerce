@@ -21,6 +21,8 @@ router.get('/get-product/:slug', getSingleProductController)
 router.get('/product-photo/:pid', productPhotoController)
 
 //delete product
+
+
 router.delete('/delete-product/:pid', deleteProductController)
 
 // filter product
